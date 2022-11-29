@@ -81,7 +81,7 @@ const Registro = () => {
                                 onChange={(e) => setPassword(e.target.value)}
                                 required />
                             </Form.Group>
-                            <a id="create-account" href="#" ><Button className='mt-3' variant='warning' id="create-button" onClick={() => {
+                            <a id="create-account" href="#/" ><Button className='mt-3' variant='warning' id="create-button" onClick={() => {
                             if (name !== "" && lastName !== "" && email !== "" && password !== "") {
                             const user = {};
                             user.name = name;
