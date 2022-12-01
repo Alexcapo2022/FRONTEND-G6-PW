@@ -101,7 +101,7 @@ header a:hover{
         rgba(0,0,0,0.5)
 
     )
-    ,url(`${RUTA_BACKEND}/icons/hero.jpg`);
+    ,url(${RUTA_BACKEND}/icons/hero.jpg);
     background-position: no-repeat;
     background-size: cover;
     background-position: center center;
