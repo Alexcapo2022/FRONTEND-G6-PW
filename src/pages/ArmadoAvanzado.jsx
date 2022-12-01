@@ -7,7 +7,7 @@ import tacho from '../imagenes/icons/basura.png'
 
 
 const ArmadoAvanzado = (props) => {
-    let orderNum=0;
+    //let orderNum=0;
     let [totalPrice,setTotalPrice]=useState(0);
     const [selection, setSelection] = useState("graphics");
     console.log(selection);
