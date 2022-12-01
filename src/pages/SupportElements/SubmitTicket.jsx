@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { RUTA_BACKEND } from "../conf";
+import { RUTA_BACKEND } from '../SupportElements/conf';
 
 const SubmitTicket =() =>{
         const [name, setName] = useState("");
@@ -10,7 +10,7 @@ const SubmitTicket =() =>{
 
         const httpGuardarReporte = async (user) => {
         
-            const resp = await fetch((`${RUTA_BACKEND}/reporte`), {
+            const resp = await fetch(`${RUTA_BACKEND}/reporte`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
